@@ -4,7 +4,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './components/Home';
-// import Login from './components/Login';
+import Login from './components/Login';
 import Signup from './components/Signup';
 // import MiniProduct from './components/MiniProduct';
 // import ProductDetails from './components/ProductDetails';
@@ -19,7 +19,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Navigate to="/home" />} />
           <Route path="/home" element={<Home />} />
-          {/* <Route path="/login" element={<Login />} /> */}
+          <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
           {/* <Route path="/mini-dresses" element={<MiniProduct />} />
           <Route path="/product/:id" element={<ProductDetails />} />
