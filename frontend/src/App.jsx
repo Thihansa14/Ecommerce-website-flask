@@ -6,7 +6,7 @@ import Footer from './components/Footer';
 import Home from './components/Home';
 import Login from './components/Login';
 import Signup from './components/Signup';
-// import MiniProduct from './components/MiniProduct';
+import MiniProduct from './components/MiniProduct';
 // import ProductDetails from './components/ProductDetails';
 // import ShoppingCart from './components/ShoppingCart';
 import './styles/index.css';
@@ -21,9 +21,9 @@ function App() {
           <Route path="/home" element={<Home />} />
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
-          {/* <Route path="/mini-dresses" element={<MiniProduct />} />
-          <Route path="/product/:id" element={<ProductDetails />} />
-          <Route path="/cart" element={<ShoppingCart />} /> */}
+          <Route path="/mini-dresses" element={<MiniProduct />} />
+          {/* <Route path="/product/:id" element={<ProductDetails />} /> */}
+          {/* <Route path="/cart" element={<ShoppingCart />} /> */}
         </Routes>
         <Footer />
       </div>
